@@ -294,3 +294,4 @@ Initially created by [onWidget](https://onwidget.com) and maintained by a commun
 
 **AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.
 # JadePortfolioAstro
+# JadePortfolioAstro
