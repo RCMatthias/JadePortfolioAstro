@@ -3,116 +3,33 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      text: 'Portfolio',
+      href: getPermalink('/portfolio'),
     },
     {
-      text: 'Pages',
+      text: 'Illustraties en kaarten op maat',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Geboortekaartjes',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Trouwkaarten',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Prijzen',
           href: getPermalink('/pricing'),
         },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
       ],
     },
     {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
+      text: 'Contact & info',
+      href: getBlogPermalink('/contact')
     },
     {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
+      text: 'Shop',
+      href: getBlogPermalink('/shop)'),
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
@@ -121,53 +38,38 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Collecties',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Geboortekaartjes jongens', href: '#' },
+        { text: 'Geboortekaartjes meisjes', href: '#' },
+        { text: 'Zelf maken', href: '#' },
+        { text: 'Trouwkaarten', href: '#' },
+        { text: 'Save the dates', href: '#' },
+        { text: 'Extra', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'FOLLOW ME',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Instagram', href: '#' },
+        { text: 'Pinterest', href: '#' },
+        { text: 'Facebook', href: '#' },
+        { text: 'Nieuwsbrief', href: '#' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Informatie',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
+        { text: 'Bestel uitleg', href: '#' },
+        { text: 'Ontwerp tips', href: '#' },
+        { text: 'Foliedruk', href: '#' },
+        { text: 'Prijzen', href: '#' },
+        { text: 'Proefdruk', href: '#' },
+        { text: 'Enveloppen', href: '#' },
+        { text: 'Geboortegedichtjes', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
       ],
     },
-  ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },

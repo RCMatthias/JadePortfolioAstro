@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: JadeYaert 
+  site: 'https://rcmatthias.github.io/jadeyaert'
   base: '/'
   trailingSlash: false
 
@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: JadeYaert
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Portfolio and webshop of childrenbook illustrator Jade Yaert." 
   robots:
     index: true
     follow: true
